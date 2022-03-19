@@ -1,0 +1,12 @@
+h1{
+	color:orange;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1ch;
+}
+h2{
+	color:blue;
+	text-decoration: underline blue;
+}		
+h3{
+	color:blue;
+}
