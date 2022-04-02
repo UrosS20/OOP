@@ -1,11 +1,16 @@
+html{
+text-align:center;
+	font-family: sherif;
+}
 h1{
 	color:orange;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 1ch;
 }
 h2{
-	color:blue;
-	text-decoration: underline blue;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color:orange;
+	text-decoration: underline orange;
 }		
 h3{
 	color:blue;
