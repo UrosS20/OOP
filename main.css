@@ -1,17 +1,45 @@
-html{
-text-align:center;
-	font-family: sherif;
+header{
+	
 }
+
+section{
+	
+}
+
+.main_container{
+	text-align:center;
+	background:orange;
+	
+	padding-top : 10px;
+	padding-bottom: 10;
+	margin-left: 100px;
+	margin-right:100px;
+	border: black;
+}
+
+.home_item{
+	width:300px;
+}
+main{
+	display: flex;
+}
+
+footer{
+	padding-top: orange;
+}
+
 h1{
 	color:orange;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 1ch;
 }
+
 h2{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color:orange;
-	text-decoration: underline orange;
-}		
+	color:black;
+	text-decoration: underline black;
+}
+		
 h3{
-	color:blue;
+	color:black;
 }
