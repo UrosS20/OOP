@@ -4,30 +4,77 @@
     <head>
 	
 	    <meta charset="UTF8">
-        <title>NBA Basketball Shop</title>
+        <title>Basketball Shop</title>
 		<link rel="stylesheet" href="main.css">
+		<script>
+			function testFunction(){
+				documen.getElementByld("test").innerHTML="Hello button";
+			}
+			
+			function testFunction2(){
+				documen.getElementByld("test").innerHTML="Hello DIV";
+			}
+		</script>
 		
     </head>
 	
 	<body>
-	    <h1>NBA Basketball Shop</h1>
-		<img src="logo.jpg" style="width:300px;high:400px;" alt="Logo">
+		
+		<header>
+		
+			<h1>Basketball Shop</h1>
+		
+			<img src="logo.jpg" style="width:100px;high:400px;" alt="Logo">
+		
+			<nav>
+		
+				<ul class="meni">
+			
+					<li><a href="Odeca.html">Odeca</a></li>
+					<li><a href="Obuca.html">Obuca</a></li>
+					<li><a href="Dodaci.html">Dodaci</a></li>
+					<li><a href="Novo.html">Novo</a></li>
+					<li><a href="Brandovi.html">Brandovi</a></li>
+				
+				</ul>
+		
+			</nav>
+		
+		</header>
+		
+		
+		<section class="main_container">
 		
 		<h2>Prodaja</h2>
-		<p>U prodaji se nalazi sva kosarkaska oprema.</p>
+			
+			<main>
+				<div class="home_item">
+					<h3>Podnaslov1</h3>
+				</div>
+				<div class="home_item">
+					<h3>Podnaslov2</h3>
+				</div>
+				<div class="home_item">
+					<h3>Podnaslov3</h3>
+					<p id="test">
+					...
+					</p>
+					
+					<button type="button" onclick="testFunction()">Click me</button>
+					<div onclick="testFunction2()">Click me</div>
+				</div>
+			</main>
+			
+		</section>
 		
-		<h2>Brendovi</h2>
-		<a href="https://www.nike.com/w/mens-basketball-shoes-3glsmznik1zy7ok"><img src="nike.jpg" style="width:100px;high:400px;" alt="nike"></a>
-		<a href="https://www.adidas.com/us"><img src="adidas.png" style="width:100px;high:400px;" alt="adidas"></a>
-		<a href="https://www.nike.com/w/mens-jordan-basketball-shoes-37eefz3glsmznik1zy7ok"><img src="jordan.png" style="width:100px;high:400px;" alt="jordan"></a>
-		
-		<h2>Dodaci</h2>
-		<img src="ball1.jpg" style="width:100px;high:400px;" alt="ball1">
-		<img src="ranac.jpg" style="width:100px;high:400px;" alt="ranac">
-		<img src="pumpa.jpg" style="width:100px;high:400px;" alt="pumpa">
-		
-		<p>Sajt ce biti po uzoru na sajt Dunk Shop Srbija.</p>
+		<footer>
+			<p>Sajt ce biti po uzoru na sajt Dunk Shop Srbija.</p>
 		<p>Link:</p>
 		<a href="https://dunkshop.rs/?msclkid=b07de639b24911ec8af548a2f7e0d856">Basketball Shop</a>
+		</footer>
+		
+		<script>
+			document.getElementByld("test").innerHTML="Hello";
+		</script>
 	</body>
 </html>
